@@ -1,0 +1,46 @@
+.main {
+    width: 38%;
+    height: 50%;
+    margin: 0px auto;
+}
+.content {
+    position: absolute;
+    width: 37.5%;
+    height: 12%;
+    background-color: black;
+    top: 39.4%;
+    left: 31.2%;
+    opacity: 0.8;
+
+}
+
+.image {
+    display: none;
+}
+.active {
+    display: block;
+}
+
+.content ul {
+    width: 84%;
+    height: 100%;
+    position: relative;
+    left: 13px;
+    top: -17px;
+}
+
+ul li {
+    display: inline-block;
+    width: 19%;
+    height: 93%;
+    margin-top: 15px;
+}
+ul li img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.nactive {
+    border: 1px solid green;
+    
+}
